@@ -15,6 +15,8 @@
 		D51227C41BE42AE00086A0F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51227C21BE42AE00086A0F1 /* LaunchScreen.storyboard */; };
 		D51227CF1BE42AE00086A0F1 /* RestomaticTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51227CE1BE42AE00086A0F1 /* RestomaticTests.swift */; };
 		D51227DA1BE42AE00086A0F1 /* RestomaticUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51227D91BE42AE00086A0F1 /* RestomaticUITests.swift */; };
+		D51227FD1BEC1BB10086A0F1 /* DestinationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51227FC1BEC1BB00086A0F1 /* DestinationViewController.swift */; };
+		D5FD9B861BEFEFB100B25577 /* logo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5FD9B851BEFEFB100B25577 /* logo.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D51227D51BE42AE00086A0F1 /* RestomaticUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestomaticUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51227D91BE42AE00086A0F1 /* RestomaticUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestomaticUITests.swift; sourceTree = "<group>"; };
 		D51227DB1BE42AE00086A0F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51227FC1BEC1BB00086A0F1 /* DestinationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DestinationViewController.swift; sourceTree = "<group>"; };
+		D5FD9B851BEFEFB100B25577 /* logo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = logo.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		D51227B51BE42AE00086A0F1 /* Restomatic */ = {
 			isa = PBXGroup;
 			children = (
+				D5FD9B851BEFEFB100B25577 /* logo.ttf */,
 				D51227B61BE42AE00086A0F1 /* AppDelegate.swift */,
 				D51227B81BE42AE00086A0F1 /* ViewController.swift */,
 				D51227BA1BE42AE00086A0F1 /* Main.storyboard */,
@@ -106,6 +111,7 @@
 				D51227C21BE42AE00086A0F1 /* LaunchScreen.storyboard */,
 				D51227C51BE42AE00086A0F1 /* Info.plist */,
 				D51227BD1BE42AE00086A0F1 /* Restomatic.xcdatamodeld */,
+				D51227FC1BEC1BB00086A0F1 /* DestinationViewController.swift */,
 			);
 			path = Restomatic;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D51227C41BE42AE00086A0F1 /* LaunchScreen.storyboard in Resources */,
+				D5FD9B861BEFEFB100B25577 /* logo.ttf in Resources */,
 				D51227C11BE42AE00086A0F1 /* Assets.xcassets in Resources */,
 				D51227BC1BE42AE00086A0F1 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 				D51227BF1BE42AE00086A0F1 /* Restomatic.xcdatamodeld in Sources */,
 				D51227B91BE42AE00086A0F1 /* ViewController.swift in Sources */,
 				D51227B71BE42AE00086A0F1 /* AppDelegate.swift in Sources */,
+				D51227FD1BEC1BB10086A0F1 /* DestinationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +496,7 @@
 				D51227E01BE42AE00086A0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D51227E11BE42AE00086A0F1 /* Build configuration list for PBXNativeTarget "RestomaticTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +505,7 @@
 				D51227E31BE42AE00086A0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D51227E41BE42AE00086A0F1 /* Build configuration list for PBXNativeTarget "RestomaticUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +514,7 @@
 				D51227E61BE42AE00086A0F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
